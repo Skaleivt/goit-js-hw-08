@@ -11,9 +11,18 @@
     max-width: 1440px;
     margin: 24px 156px;
 }
+.gallery-item {
+  width: 360px;
+  height: 200px;
+}
+.gallery-link{
+  display: block;
+  width: 100%;
+    height: 100%;
+}
 .gallery-image {
-    width: 360px;
-    height: 200px;
+    width: 100%;
+    height: 100%;
     cursor: pointer;
 }
 .gallery-link:hover {

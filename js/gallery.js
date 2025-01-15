@@ -69,6 +69,10 @@ clickImg.forEach((item) => {
     item.addEventListener("click", (event) => {
         event.preventDefault();
 
+         if (event.target.nodeName !== "IMG") {
+            return;
+        }
+
         const imageURL = event.target.dataset.source;
         const altText = event.target.alt;
 
